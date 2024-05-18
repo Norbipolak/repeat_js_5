@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Form kezelés</h1>
+    <h3>Egyszerű form-ok</h3>
+    <div id="form-1-message"></div>
+    <form>
+        <h3>Név</h3>
+        <input type="text" id="name">
+        <h3>Email cím</h3>
+        <input type="email" id="email">
+        <h3>Tárgy</h3>
+        <select id="subject">
+            <option value="0">Válassz Tárgyat!</option>
+            <option value="1">tárgy 1</option>
+            <option value="2">tárgy 2</option>
+            <option value="3">tárgy 3</option>
+        </select>
+        <button id="send-form-1">Küldés</button>
+    </form>
+    <h3>FormData</h3>
+    <p>
+        A formData egy beépített adatszerkezet
+    </p>
+    <form id="form-data-form">
+        <h3>Név</h3>
+        <input type="text" name="name">
+        <h3>Email</h3>
+        <input type="email" name="email">
+        <h3>Tárgy</h3>
+        <select name="subject">
+            <option value="0">Válassz tárgyat</option>
+            <option value="1">Tárgy 1</option>
+            <option value="2">Tárgy 2</option>
+            <option value="3">Tárgy 3</option>
+        </select>
+        <button id="send-form-2">Beküldés!</button>
+    </form>
+    <!-- <script src="form.js"></script> -->
+    <script src="prototype_inheritance.js"></script>
+</body>
+
+</html>
